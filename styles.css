@@ -1,0 +1,176 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1c1c1c; /* Charcoal Black background */
+    color: #f0f0f0; /* Light Gray text color */
+    background-image: url('back1.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.9); /* Dark transparent background */
+    color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(255, 215, 0, 0.7); /* Gold shadow */
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold for hover */
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+    animation: fadeIn 2s ease-out;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.hero img:hover {
+    transform: scale(1.05);
+}
+
+/* Hours Section */
+.hours {
+    padding: 40px 20px;
+    background-color: rgba(128, 0, 32, 0.9); /* Burgundy background */
+    text-align: center;
+    animation: fadeInUp 3s ease-in-out;
+}
+
+.hours h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #f0f0f0;
+}
+
+.hours p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a; /* Slightly lighter black */
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hours h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1
+::contentReference[oaicite0]{index}
+ 
+}
